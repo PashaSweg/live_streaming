@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="./assets/faficon.png" type="imeg/png">
     <link rel="stylesheet" href="./dist/index.css">
     <title>Live streaming</title>
 </head>
+
 <body>
     <header class="header" aria-label="header">
         <div class="container">
@@ -45,23 +48,25 @@
             </nav>
 
             <main>
-                <section class="hero-section">
+                <section class="hero-section" aria-label="hero section">
                     <div class="container">
-                        <div class="hero">
-                            <div class="hero__content">
+                        <div class="hero" aria-label="hero container">
+                            <div class="hero__content" aria-label="hero content">
                                 <h1 class="hero__title">WHEN PERFORMANCE MATTERS</h1>
                                 <button class="hero__action-btn">Start development with us!</button>
                             </div>
 
-                            <div class="hero__notify">
+                            <div class="hero__notify" aria-label="hero notify">
                                 <img class="hero__notify-img" src="./assets/faficon.png" alt="pigeon img">
 
-                                <p class="hero__notify-content">WE USE COOKIES TO ENSURE YOUR BEST EXPERIENCE. THROUGH YOUR CONTINUED USE OF THIS SITE YOU ACCEPT THIS USE. FOR MORE INFORMATION, PLEASE SEE OUR PRIVACY POLICY.</p>
+                                <p class="hero__notify-content">WE USE COOKIES TO ENSURE YOUR BEST EXPERIENCE. THROUGH
+                                    YOUR CONTINUED USE OF THIS SITE YOU ACCEPT THIS USE. FOR MORE INFORMATION, PLEASE
+                                    SEE OUR PRIVACY POLICY.</p>
                                 <button class="hero__notify-btn">ACCEPT</button>
                             </div>
 
-                            <div class="hero__scrol">
-                                <span class="hero__scrol-content">
+                            <div class="hero__scrol" aria-label="hero scrol">
+                                <span class="hero__scrol-content" aria-label="scrol">
                                     Scroll down
                                 </span>
                             </div>
@@ -69,9 +74,75 @@
                     </div>
                 </section>
 
+                <section class="work-section" aria-label="work section">
+                    <div class="container">
+                        <div class="work" aria-label="work">
+
+                            <h2 class="work__title">How we work</h2>
+
+                            <div class="work__card-wrapper">
+
+                                <figure class="card card-analysis" aria-label="card analysis">
+                                    <svg class="card__icon" aria-label="icon analysis">
+                                        <use href="./assets/sprites.svg#analysis-icon"></use>
+                                    </svg>
+                                    <h3 class="card__title">Analysis</h3>
+                                    <p class="card__desc">Gathering client's ideas we are happy to help with a technical
+                                        vision.</p>
+                                </figure>
+
+                                <figure class="card card-design" aria-label="card design">
+                                    <svg class="card__icon" aria-label="icon design">
+                                        <use href="./assets/sprites.svg#design-icon"></use>
+                                    </svg>
+                                    <h3 class="card__title">Design</h3>
+                                    <p class="card__desc">In-depth analysis makes our solutions flexible, scalable and
+                                        robust.</p>
+                                </figure>
+
+                                <figure class="card card-development" aria-label="card development">
+                                    <svg class="card__icon" aria-label="icon development">
+                                        <use href="./assets/sprites.svg#development-icon"></use>
+                                    </svg>
+                                    <h3 class="card__title">Development</h3>
+                                    <p class="card__desc">Using best practices to make reliable, well-documented and
+                                        easy to maintain system.</p>
+                                </figure>
+
+                                <figure class="card card-maintenance" aria-label="card maintenance">
+                                    <svg class="card__icon" aria-label="icon maintenance">
+                                        <use href="./assets/sprites.svg#maintenance-icon"></use>
+                                    </svg>
+                                    <h3 class="card__title">Maintenance</h3>
+                                    <p class="card__desc">Gathering client's ideas we are happy to help with a technical
+                                        vision.</p>
+                                </figure>
+
+                                <figure class="card card-testing" aria-label="card testing">
+                                    <svg class="card__icon" aria-label="icon testing">
+                                        <use href="./assets/sprites.svg#testing-icon"></use>
+                                    </svg>
+                                    <h3 class="card__title">Testing</h3>
+                                    <p class="card__desc">Providing best quality of things developed by us for customers
+                                    </p>
+                                </figure>
+
+                                <figure class="card card-integration" aria-label="card integration">
+                                    <svg class="card__icon" aria-label="icon integration">
+                                        <use href="./assets/sprites.svg#integration-icon"></use>
+                                    </svg>
+                                    <h3 class="card__title">Integration</h3>
+                                    <p class="card__desc">Solutions that go with the times to improve businesses and
+                                        give customers best experience</p>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </main>
 
         </div>
     </header>
 </body>
+
 </html>
